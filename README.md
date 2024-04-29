@@ -15,5 +15,10 @@ En la entrada de la universidad se ha implantado un nuevo sistema para facilitar
 1. Asegúrate de tener `zbar-tools` instalado en tu sistema. En sistemas basados en Debian, puedes instalarlo con:
    ```sh
    sudo apt-get install zbar-tools
-zbarimg --raw path_to_your_qr_code.png
+
+
+2. Utiliza el comando `zbarimg` para leer el código QR desde tu terminal. Si estás en un sistema operativo basado en Unix, como Linux o macOS, el comando es:
+   ```bash
+   zbarimg --raw path_to_your_qr_code.png
+
 
